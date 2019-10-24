@@ -10,7 +10,8 @@ const Home = () => {
         <h2 className="word hi">Hi<span className="word italicHome">!</span></h2>
         <h2 className="word nameFirst">Darrin</h2>
         <h2 className="word nameLast">Im</h2>
-        <h1 className="word jobTitle">Software Engineer</h1>
+        <h2 className="word jobTitleL">Software</h2>
+        <h2 className="word jobTitleR">Engineer</h2>
       </div>
     </div>
   )

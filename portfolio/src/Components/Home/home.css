@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,400,500,600i|Nunito:400,600,700|Open+Sans+Condensed:300|Oswald:400,600|Quicksand:400,600,700|Raleway:400,500,700|Roboto:300,400,500&display=swap');
+
 html, body {
   height: 100%;
   margin: 0;
+  font-family: Quicksand;
 }
 .container {
   /* border: 1px solid black; */
@@ -27,27 +30,35 @@ html, body {
   margin: 0;
 }
 .hi {
- border: 1px solid red;
+ /* border: 1px solid red; */
   position: fixed;
-  right: 50%;
   top: 40%;
+  right: 45%;
 }
 .italicHome {
- border: 1px solid blue;
+ /* border: 1px solid blue; */
  font-style: italic;
 }
 .nameFirst {
- border: 1px solid green;
+ /* border: 1px solid green; */
   position: fixed;
-  right: 50%;
+  top: 45%;
+  right: 38%;
 }
 .nameLast {
- border: 1px solid purple;
+ /* border: 1px solid purple; */
   position: fixed;
-  right: 50%;
+  top: 50%;
+  right: 43%;
 }
-.jobTitle {
- border: 1px solid yellow;
+.jobTitleL {
+ /* border: 1px solid yellow; */
   position: fixed;
-  right: 50%;
+  top: 55%;
+  right: 52%;
+}
+.jobTitleR {
+  position: fixed;
+  top: 55%;
+  right: 9%;
 }
