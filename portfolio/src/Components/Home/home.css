@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.container {
+  /* border: 1px solid black; */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-color: white;
+}
+.homeLeft {
+  /* border: 1px solid red; */
+  background-color: #5edfff;
+  /* margin-left: 10px; */
+  flex: 0.5;
+}
+.bitmojiHome {
+  width: 50%;
+  position: fixed;
+  top: 15%;
+  right: 0;
+}
+
+/* BELOW IS HOME PAGE WORD STYLING */
+.word {
+  margin: 0;
+}
+.hi {
+ border: 1px solid red;
+  position: fixed;
+  right: 50%;
+  top: 40%;
+}
+.italicHome {
+ border: 1px solid blue;
+ font-style: italic;
+}
+.nameFirst {
+ border: 1px solid green;
+  position: fixed;
+  right: 50%;
+}
+.nameLast {
+ border: 1px solid purple;
+  position: fixed;
+  right: 50%;
+}
+.jobTitle {
+ border: 1px solid yellow;
+  position: fixed;
+  right: 50%;
+}
