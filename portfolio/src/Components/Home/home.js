@@ -1,5 +1,6 @@
 import React from 'react';
 import './home.css'
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Home = () => {
 
@@ -14,8 +15,38 @@ const Home = () => {
         <h2 className="word jobTitleR">Engineer<span className="periodHome">.</span></h2>
       </div>
       <div className="scrollToContainer">
-        <p className="linkScrollTo linkAbout">About<i class="fas fa-long-arrow-alt-down"></i></p>
-        <p className="linkScrollTo linkProjects">Projects<i class="fas fa-long-arrow-alt-down"></i></p>
+        <Link
+          activeClass="active"
+          to="aboutContainer"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {500}
+        >
+          <p className="linkScrollTo linkAbout">About<i class="fas fa-long-arrow-alt-down"></i></p>
+        </Link>
+
+        <Link
+          activeClass="active"
+          to="footerContainer"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {500}
+        >
+          <p className="linkScrollTo linkContact">Contact<i class="fas fa-long-arrow-alt-down"></i></p>
+        </Link>
+
+        <Link
+          activeClass="active"
+          to="projectContainerFull"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {500}
+        >
+          <p className="linkScrollTo linkProjects">Projects<i class="fas fa-long-arrow-alt-down"></i></p>
+        </Link>
       </div>
     </div>
   )

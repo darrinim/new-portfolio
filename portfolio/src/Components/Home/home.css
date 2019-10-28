@@ -78,10 +78,18 @@ html, body {
 .linkAbout {
   position: absolute;
   bottom: 0;
-  right: 25%;
+  right: 15%;
 }
 .linkProjects {
   position: absolute;
   bottom: 0;
-  left: 25%;
+  left: 15%;
+}
+.linkContact {
+  position: absolute;
+  bottom: 0;
+  right: 40%;
+}
+.linkScrollTo {
+  cursor: pointer;
 }

@@ -6,6 +6,7 @@ import About from './Components/About/about';
 import Projects from './Components/Projects/projects';
 import Footer from './Components/Footer/footer';
 import axios from 'axios';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 
 
