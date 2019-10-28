@@ -13,6 +13,10 @@ const Home = () => {
         <h2 className="word jobTitleL">Software</h2>
         <h2 className="word jobTitleR">Engineer<span className="periodHome">.</span></h2>
       </div>
+      <div className="scrollToContainer">
+        <p className="linkScrollTo linkAbout">About<i class="fas fa-long-arrow-alt-down"></i></p>
+        <p className="linkScrollTo linkProjects">Projects<i class="fas fa-long-arrow-alt-down"></i></p>
+      </div>
     </div>
   )
 }

@@ -1,0 +1,21 @@
+.projectContainerFull {
+
+}
+.projectContainer {
+  position: relative;
+  top: 25px;
+
+}
+.projectPhotos {
+  width: 100%;
+}
+.projectList {
+  position: absolute;
+  padding: 0;
+  left: 0;
+  bottom: 0;
+}
+.text {
+  list-style-type: none;
+  font-size: 14px;
+}

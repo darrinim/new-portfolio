@@ -1,0 +1,24 @@
+.aboutContainer {
+  height: 80vh;
+  width: 100%;
+  margin: 0;
+  border-top: 10px solid black;
+  border-bottom: 1px solid black;
+}
+.aboutLetterWrap {
+  margin: 20px 0 0 15px;
+  border: 1px solid black;
+  padding: 5px;
+  width: fit-content;
+}
+.aboutLetter {
+  margin: 0;
+  border: 1px solid red;
+}
+.aboutMeWrap {
+  width: 48%;
+  position: absolute;
+  right: 0;
+  margin: 15px 5px 0 0;
+  border: 1px solid green;
+}

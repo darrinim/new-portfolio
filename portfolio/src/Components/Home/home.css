@@ -20,7 +20,7 @@ html, body {
 }
 .bitmojiHome {
   width: 50%;
-  position: fixed;
+  position: absolute;
   top: 15%;
   right: 0;
 }
@@ -31,7 +31,7 @@ html, body {
 }
 .hi {
  /* border: 1px solid red; */
-  position: fixed;
+  position: absolute;
   top: 40%;
   right: 45%;
 }
@@ -41,27 +41,47 @@ html, body {
 }
 .nameFirst {
  /* border: 1px solid green; */
-  position: fixed;
+  position: absolute;
   top: 45%;
   right: 38%;
 }
 .nameLast {
  /* border: 1px solid purple; */
-  position: fixed;
+  position: absolute;
   top: 50%;
   right: 43%;
 }
 .jobTitleL {
  /* border: 1px solid yellow; */
-  position: fixed;
+  position: absolute;
   top: 55%;
   right: 52%;
 }
 .jobTitleR {
-  position: fixed;
+  position: absolute;
   top: 55%;
   right: 9%;
 }
 .periodHome {
   color: #FF78A8;
+}
+.linkScrollTo {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+.fas {
+  margin: 8px 0;
+}
+.scrollToContainer {
+  display: flex;
+}
+.linkAbout {
+  position: absolute;
+  bottom: 0;
+  right: 25%;
+}
+.linkProjects {
+  position: absolute;
+  bottom: 0;
+  left: 25%;
 }
