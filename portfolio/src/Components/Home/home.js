@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="container">
       <div className="half homeLeft">
-        <img className="bitmojiHome" src="https://res.cloudinary.com/darrin-im/image/upload/v1571943986/bitmojiport_e09uaf.jpg" />
+        <img className="bitmojiHome" src="https://res.cloudinary.com/darrin-im/image/upload/v1572289016/bitmojiHome2_qe3jzs.png" />
         <h2 className="word hi">Hi<span className="word italicHome">!</span></h2>
         <h2 className="word nameFirst">Darrin</h2>
         <h2 className="word nameLast">Im</h2>

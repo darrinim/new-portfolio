@@ -1,6 +1,14 @@
 .projectContainerFull {
 
 }
+.projectContainerFull::before {
+  content: "";
+  display: block;
+  border-bottom: 1px solid black;
+  margin: 0 auto;
+  width: 70%;
+  padding-top: 10px;
+}
 .projectContainer {
   position: relative;
   top: 25px;

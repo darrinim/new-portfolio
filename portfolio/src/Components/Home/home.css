@@ -10,7 +10,7 @@ html, body {
   height: 100vh;
   width: 100%;
   display: flex;
-  background-color: white;
+  background-color: #D94848;
 }
 .homeLeft {
   /* border: 1px solid red; */

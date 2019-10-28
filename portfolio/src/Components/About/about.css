@@ -3,22 +3,42 @@
   width: 100%;
   margin: 0;
   border-top: 10px solid black;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
 }
 .aboutLetterWrap {
   margin: 20px 0 0 15px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 5px;
   width: fit-content;
+  /* border: 5px outset #D94848; */
+  border-bottom: 5px groove #D94848;
+  /* border-bottom: 5px groove #D94848; */
 }
 .aboutLetter {
   margin: 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  padding: 2px;
 }
 .aboutMeWrap {
   width: 48%;
   position: absolute;
   right: 0;
   margin: 15px 5px 0 0;
-  border: 1px solid green;
+  /* border: 1px solid green; */
+}
+.lovesText {
+  font-style: italic;
+  text-decoration: underline;
+  color: #D94848;
+}
+.bitmojiAbout {
+  width: 50%;
+  /* position: relative;
+  top: 10px;
+  left: 0; */
+  float: left;
+  padding-top: 80%;
+}
+.aboutText {
+  margin-top: 0;
 }
