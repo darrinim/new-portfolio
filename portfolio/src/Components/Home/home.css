@@ -10,7 +10,7 @@ html, body {
   height: 100vh;
   width: 100%;
   display: flex;
-  background-color: #D94848;
+  background-color: white;
 }
 .homeLeft {
   /* border: 1px solid red; */
@@ -40,27 +40,32 @@ html, body {
  font-style: italic;
 }
 .nameFirst {
- /* border: 1px solid green; */
-  position: absolute;
-  top: 45%;
-  right: 38%;
+    /* border: 1px solid green; */
+    position: absolute;
+    top: 50%;
+    /* right: 38%; */
+    left: 17%;
+    font-size: 35px;
 }
 .nameLast {
- /* border: 1px solid purple; */
-  position: absolute;
-  top: 50%;
-  right: 43%;
+    position: absolute;
+    top: 56%;
+    left: 34%;
+    font-size: 35px;
 }
 .jobTitleL {
- /* border: 1px solid yellow; */
-  position: absolute;
-  top: 55%;
-  right: 52%;
+    position: absolute;
+    top: 61%;
+    right: 10%;
+    font-size: 30px;
+    font-style: italic;
 }
 .jobTitleR {
-  position: absolute;
-  top: 55%;
-  right: 9%;
+    position: absolute;
+    top: 67%;
+    right: 11%;
+    font-size: 30px;
+    font-style: italic;
 }
 .periodHome {
   color: #FF78A8;
@@ -88,8 +93,21 @@ html, body {
 .linkContact {
   position: absolute;
   bottom: 0;
-  right: 40%;
+  right: 43%;
 }
 .linkScrollTo {
   cursor: pointer;
 }
+
+/* @media (min-width: 425px) {
+  .linkScrollTo {
+    font-size: 23px;
+  }
+  .linkContact {
+    right: 41%;
+  }
+  .bitmojiHome {
+    width: 67%;
+    right: -17%;
+  }
+} */

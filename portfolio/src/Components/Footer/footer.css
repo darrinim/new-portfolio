@@ -1,18 +1,22 @@
 .footerContainer {
   /* border: 1px solid black; */
-  margin-top: 20px;
+  margin-top: 15%;
   text-align: center;
-  background-color: #D94848;
+  background-color: #5edfff;
+  border-top: 10px solid black;
 }
 .footerHeadline {
   text-transform: uppercase;
-  padding-top: 20px;
+  padding-top: 60px;
 }
 .footerSubtext {
   margin-bottom: 0;
 }
 .contactFooterLinks {
-
+  font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .contactContainer {
   display: flex;
@@ -26,8 +30,24 @@
   margin-bottom: 40px;
   width: 60%;
   margin: 0 auto;
+  border: 2px solid black;
+  background-color: white;
+  font-size: 20px;
 }
 .bitmojiFooter {
   width: 30%;
   margin: 0 auto;
+}
+.contactLink {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.fa-github-square:before {
+    content: "\f092";
+    color: black;
+}
+.fa-linkedin:before {
+    content: "\f08c";
+    color: black;
 }

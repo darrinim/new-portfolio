@@ -9,7 +9,7 @@ const Footer = () => {
       <p className="footerSubtext">lorem ipsum about things that I can do and how we can collaborate and yadda yadda yaddaaaa</p>
       <div className="contactContainer">
         <img className="bitmojiFooter" src="https://res.cloudinary.com/darrin-im/image/upload/v1572281160/bitmoji-peek_uhxkd7.png" />
-      <button className="contactButton">get in touch</button>
+      <button className="contactButton"><a className="contactLink" href="mailto:darrinj.im@gmail.com">get in touch</a></button>
       </div>
       <div className="contactFooterLinks">
         <a target= "blank" href="https://www.linkedin.com/in/darrin-im/"><i class="fab fa-linkedin fa-1x"></i></a>

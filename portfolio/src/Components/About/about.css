@@ -3,29 +3,41 @@
   width: 100%;
   margin: 0;
   border-top: 10px solid black;
-  /* border-bottom: 1px solid black; */
 }
-.aboutLetterWrap {
+/* .aboutLetterWrap {
   margin: 20px 0 0 15px;
-  /* border: 1px solid black; */
   padding: 5px;
   width: fit-content;
-  /* border: 5px outset #D94848; */
-  border-bottom: 5px groove #D94848;
-  /* border-bottom: 5px groove #D94848; */
+  font-size: 24px;
 }
 .aboutLetter {
   margin: 0;
-  /* border: 1px solid red; */
   padding: 2px;
-}
+
+} */
 .aboutMeWrap {
   width: 48%;
   position: absolute;
   right: 0;
-  margin: 15px 5px 0 0;
-  /* border: 1px solid green; */
+  margin: 15px 10px 0 0;
+  background-color: #147efb;
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: white;
 }
+/* .aboutMeWrap:after {
+    content: '';
+    position: absolute;
+    bottom: -11px;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: lightgray;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -18px;
+    transform: rotate(25deg);
+} */
 .lovesText {
   font-style: italic;
   text-decoration: underline;
@@ -40,5 +52,72 @@
   padding-top: 80%;
 }
 .aboutText {
-  margin-top: 0;
+  margin: 0;
+  font-size: 22px;
 }
+
+
+/* BELOW IS FOR TESTING PURPOSES TO CHECK IF THE TEXT MESSAGE STYLE LOOKS GOOD */
+
+.aboutMeWrap:after {
+  content: '';
+  position: absolute;
+  bottom: -11px;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-top-color: #147efb;
+  border-bottom: 0;
+  border-right: 0;
+  margin-left: 178px;
+  transform: rotate(-19deg);
+}
+.aboutLetterWrap {
+  margin: 20px 0 0 15px;
+  padding: 5px;
+  width: fit-content;
+  font-size: 24px;
+  background-color: lightgray;
+  border-radius: 10px;
+  color: black;
+}
+.aboutLetterWrap:after {
+    content: '';
+    position: absolute;
+    bottom: -100px;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: lightgray;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -8px;
+    transform: rotate(25deg);
+}
+.aboutLetter {
+  margin: 0;
+  padding: 2px;
+  font-weight: 400;
+}
+.test {
+  margin: 0;
+  font-size: 14px;
+}
+
+
+
+
+/* MEDIA QUERIES BELOW */
+
+/* @media (min-width: 425px) {
+  .bitmojiAbout {
+    padding-top: 65%;
+  }
+  .aboutContainer {
+    height: 55vh;
+  }
+  .aboutWrap:after {
+    position: absolute;
+    bottom: -673px;
+  }
+} */

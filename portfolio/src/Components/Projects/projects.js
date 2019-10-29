@@ -5,9 +5,8 @@ const Projects = (props) => {
 
   return (
     <div className="projectContainerFull">
-      <div className="aboutLetterWrap">
-        <h2 className="aboutLetter">PRO</h2>
-        <h2 className="aboutLetter">JECTS</h2>
+      <div className="aboutLetterWrap aboutWrap">
+        <h2 className="aboutLetter">Projects?</h2>
       </div>
       {props.projects && props.projects.map( d => {
         return (
