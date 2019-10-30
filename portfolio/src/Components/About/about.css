@@ -19,7 +19,7 @@
   width: 48%;
   position: absolute;
   right: 0;
-  margin: 15px 10px 0 0;
+  margin: 15px 15px 0 0;
   background-color: #147efb;
   padding: 5px 15px;
   border-radius: 10px;
@@ -56,7 +56,6 @@
   font-size: 22px;
 }
 
-
 /* BELOW IS FOR TESTING PURPOSES TO CHECK IF THE TEXT MESSAGE STYLE LOOKS GOOD */
 
 .aboutMeWrap:after {
@@ -82,17 +81,17 @@
   color: black;
 }
 .aboutLetterWrap:after {
-    content: '';
-    position: absolute;
-    bottom: -100px;
-    width: 0;
-    height: 0;
-    border: 20px solid transparent;
-    border-top-color: lightgray;
-    border-bottom: 0;
-    border-left: 0;
-    margin-left: -8px;
-    transform: rotate(25deg);
+  content: '';
+  position: absolute;
+  bottom: -14%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-top-color: lightgray;
+  border-bottom: 0;
+  border-left: 0;
+  margin-left: -8px;
+  transform: rotate(25deg);
 }
 .aboutLetter {
   margin: 0;
@@ -108,6 +107,29 @@
 
 
 /* MEDIA QUERIES BELOW */
+
+/* MEDIA QUERY FOR 320PX */
+
+@media (max-width: 320px) {
+  .aboutLetter {
+    font-size: 30px;
+  }
+  .aboutLetterWrap:after {
+    bottom: -13%;
+  }
+  .aboutText {
+    font-size: 20px;
+  }
+  .aboutMeWrap:after {
+    margin-left: 152px;
+  }
+  .bitmojiAbout {
+    padding-top: 90%;
+  }
+  .aboutWrap:after {
+    bottom: -97% !important;
+  }
+}
 
 /* MEDIA QUERY FOR 425PX */
 
@@ -129,8 +151,8 @@
 
 @media (min-width: 768px) {
   .bitmojiAbout {
-    padding-top: 30%;
-    width: 43%;
+    padding-top: 23%;
+    width: 37%;
   }
   .aboutContainer {
     height: 55vh;
@@ -139,10 +161,10 @@
     bottom: -100% !important;
   }
   .aboutLetter {
-    font-size: 2em;
+    font-size: 1.6em;
   }
   .aboutLetterWrap:after {
-    bottom: -115px;
+    bottom: -14.7%;
   }
   .aboutText {
     font-size: 1.8em;
@@ -183,9 +205,23 @@
   }
 }
 
+/* MEDIA QUERY FOR 1280PX */
+
+@media (min-width: 1280px) {
+  .aboutLetterWrap:after {
+    bottom: -141px !important;
+  }
+}
+
 /* MEDIA QYERT FOR 1440PX */
 
 @media (min-width: 1440px) {
+  .aboutLetter {
+    font-size: 2em;
+  }
+  .aboutText {
+    font-size: 2em;
+  }
   .aboutLetterWrap {
     margin: 20px 0 0 25px;
   }
@@ -204,6 +240,6 @@
     width: 28% !important;
   }
   .aboutWrap:after {
-    bottom: -89% !important;
+    bottom: -90.8% !important;
   }
 }

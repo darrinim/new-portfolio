@@ -45,7 +45,7 @@
 .aboutWrap:after {
     content: '';
     position: absolute;
-    bottom: -670px;
+    bottom: -99%;
     width: 0;
     height: 0;
     border: 20px solid transparent;
@@ -63,7 +63,7 @@
 
 @media (min-width: 425px) {
   .projectContainerFull {
-    margin-top: 36%;
+      margin-top: 55%;
   }
   .aboutMeWrap:after {
     bottom: -12px;
@@ -75,19 +75,25 @@
   .projectTitleL {
     right: 12%;
   }
+  .aboutWrap:after {
+    bottom: -102.4%;
+  }
 }
 
 /* MEDIA QUERY FOR 768PX */
 
 @media (min-width: 768px) {
   .projectContainerFull {
-    margin-top: 34%;
+    margin-top: 28%;
   }
   .projectTitleR {
     right: 13%;
   }
   .projectTitleL {
     right: 12%;
+  }
+  .projectPhotos {
+    width: 60%;
   }
 }
 
@@ -99,6 +105,14 @@
   }
   .projectPhotos {
     width: 50%;
+  }
+}
+
+/* MEDIA QUERY FOR 1280PX */
+
+@media (min-width: 1280px) {
+  .aboutWrap:after {
+    bottom: -96% !important;
   }
 }
 
