@@ -59,6 +59,8 @@ html, body {
     right: 10%;
     font-size: 30px;
     font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: #FF78A8;
 }
 .jobTitleR {
     position: absolute;
@@ -66,6 +68,8 @@ html, body {
     right: 11%;
     font-size: 30px;
     font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: #FF78A8;
 }
 .periodHome {
   color: #FF78A8;
@@ -99,7 +103,11 @@ html, body {
   cursor: pointer;
 }
 
-/* @media (min-width: 425px) {
+/* MEDIA QUERIES BELOW */
+
+/* MEDIA QUERY FOR 425PX */
+
+@media (min-width: 425px) {
   .linkScrollTo {
     font-size: 23px;
   }
@@ -110,4 +118,116 @@ html, body {
     width: 67%;
     right: -17%;
   }
-} */
+}
+
+/* MEDIA QUERY FOR 768PX */
+
+@media (min-width: 768px) {
+  .linkScrollTo {
+    font-size: 23px;
+  }
+  .linkContact {
+    right: 45%;
+  }
+  .bitmojiHome {
+    width: 54%;
+    right: -4%;
+    top: 4%;
+  }
+  .nameLast {
+    top: 61%;
+    left: 32%;
+    font-size: 50px;
+  }
+  .nameFirst {
+    top: 54%;
+    left: 20%;
+    font-size: 50px;
+  }
+  .jobTitleR {
+    top: 67%;
+    right: 14%;
+    font-size: 45px;
+  }
+  .jobTitleL {
+    top: 61%;
+    right: 14%;
+    font-size: 45px;
+  }
+}
+
+/* MEDIA QUERY 1024PX */
+
+@media (min-width: 1024px) {
+  .container {
+    height: 98vh;
+  }
+  .linkScrollTo {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+  .linkContact {
+    right: 46%;
+  }
+  .bitmojiHome {
+    width: 35%;
+    right: 15%;
+    top: 4%;
+  }
+  .nameLast {
+    top: 57%;
+    left: 38%;
+  }
+  .nameFirst {
+    top: 50%;
+    left: 29%;
+  }
+  .jobTitleR {
+    top: 70%;
+    right: 24%;
+  }
+  .jobTitleL {
+    top: 64%;
+    right: 24%;
+  }
+  .fa-long-arrow-alt-down:before {
+    font-size: 36px;
+  }
+}
+
+/* MEDIA QUERY 1440PX */
+
+@media (min-width: 1440px) {
+  .linkScrollTo {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .nameFirst {
+    top: 45%;
+    left: 28%;
+    font-size: 4em;
+  }
+  .nameLast {
+    top: 53%;
+    left: 36.4%;
+    font-size: 4em;
+  }
+  .jobTitleR {
+    top: 63%;
+    right: 26%;
+    font-size: 3.3em;
+  }
+  .jobTitleL {
+    top: 55%;
+    right: 26%;
+    font-size: 3.3em;
+  }
+  .linkContact {
+    right: 47%;
+  }
+  .bitmojiHome {
+    width: 25%;
+    right: 25%;
+    top: 4%;
+  }
+}

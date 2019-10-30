@@ -51,3 +51,39 @@
     content: "\f08c";
     color: black;
 }
+
+
+/* MEDIA QUERIES BELOW */
+
+/* MEDIA QUERY 768PX */
+
+@media (min-width: 768px) {
+  .footerHeadline {
+    padding-top: 40px;
+    font-size: 2em;
+  }
+  .footerSubtext {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.5em;
+  }
+}
+
+/* MEDIA QUERY 1024PX */
+
+@media (min-width: 1024px) {
+  .bitmojiFooter {
+    width: 15%;
+    margin: 60px auto 0 auto;
+  }
+  .footerContainer {
+    margin-top: 7%;
+  }
+}
+
+/* MEDIA QUERY 1440PX */
+
+@media
+(min-width: 1440px) {
+
+}

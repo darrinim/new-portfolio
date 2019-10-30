@@ -12,7 +12,7 @@ const Home = () => {
         <h2 className="word nameFirst">Darrin</h2>
         <h2 className="word nameLast">Im</h2>
         <h2 className="word jobTitleL">Software</h2>
-        <h2 className="word jobTitleR">Engineer<span className="periodHome">.</span></h2>
+        <h2 className="word jobTitleR">Engineer</h2>
       </div>
       <div className="scrollToContainer">
         <Link

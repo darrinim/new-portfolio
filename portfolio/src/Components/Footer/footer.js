@@ -8,7 +8,7 @@ const Footer = () => {
       <h2 className="footerHeadline">Let's accomplish something great</h2>
       <p className="footerSubtext">lorem ipsum about things that I can do and how we can collaborate and yadda yadda yaddaaaa</p>
       <div className="contactContainer">
-        <img className="bitmojiFooter" src="https://res.cloudinary.com/darrin-im/image/upload/v1572281160/bitmoji-peek_uhxkd7.png" />
+        <img className="bitmojiFooter" src="https://res.cloudinary.com/darrin-im/image/upload/v1572408505/bitmoji-peek_bartez.png" />
       <button className="contactButton"><a className="contactLink" href="mailto:darrinj.im@gmail.com">get in touch</a></button>
       </div>
       <div className="contactFooterLinks">
