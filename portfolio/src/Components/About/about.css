@@ -157,15 +157,25 @@
 
 @media (min-width: 1024px) {
   .aboutLetterWrap:after {
-    bottom: -140px;
+    bottom: -128px;
+  }
+  .aboutLetter {
+    font-size: 1.5em;
+  }
+  .aboutMeWrap {
+    margin: 15px 15px 0 0;
+  }
+  .aboutText {
+    font-size: 1.5em;
   }
   .aboutMeWrap:after {
     bottom: -14px !important;
-    margin-left: 93.39% !important;
+    margin-left: 93.9% !important;
   }
   .bitmojiAbout {
-    padding-top: 18%;
-    width: 35%;
+      padding-top: 12%;
+      padding-left: 4%;
+      width: 28%;
   }
   .aboutContainer {
     height: 55vh;
@@ -180,7 +190,7 @@
     margin: 20px 0 0 25px;
   }
   .aboutLetterWrap:after {
-    bottom: -1px;
+    bottom: -14.5%;
   }
   .aboutMeWrap:after {
     bottom: -16px !important;
@@ -192,5 +202,8 @@
   .bitmojiAbout {
     padding-top: 6% !important;
     width: 28% !important;
+  }
+  .aboutWrap:after {
+    bottom: -89% !important;
   }
 }

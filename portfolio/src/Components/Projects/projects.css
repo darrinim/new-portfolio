@@ -95,7 +95,10 @@
 
 @media (min-width:1024px) {
   .projectContainerFull {
-    margin-top: 23%;
+    margin-top: 18%;
+  }
+  .projectPhotos {
+    width: 50%;
   }
 }
 
