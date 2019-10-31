@@ -15,7 +15,7 @@
   padding: 0 30px;
 }
 .contactFooterLinks {
-  font-size: 25px;
+  font-size: 35px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -26,7 +26,7 @@
   justify-content: center;
   margin-bottom: 30px;
 }
-.contactButton {
+/* .contactButton {
   padding: 10px 30px;
   text-transform: uppercase;
   margin-bottom: 40px;
@@ -35,7 +35,7 @@
   border: 2px solid black;
   background-color: white;
   font-size: 20px;
-}
+} */
 .bitmojiFooter {
   width: 25%;
   margin: 40px auto 0 auto;
@@ -44,17 +44,36 @@
   text-decoration: none;
   color: black;
   cursor: pointer;
+  /* padding: 0 10px; */
+  appearance: button;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  width: 60%;
+  margin: 0 auto;
+  outline: 2px solid black;
+  background-color: white;
+  font-size: 20px;
 }
 .fa-github-square:before {
-    content: "\f092";
-    color: black;
+  content: "\f092";
+  color: black;
 }
 .fa-linkedin:before {
-    content: "\f08c";
-    color: black;
+  content: "\f08c";
+  color: black;
 }
-
-
+.fa-file:before {
+  content: "\f15b";
+  color: black;
+}
+.fa-envelope:before {
+  content: "\f0e0";
+  color: black;
+}
+.contactIcon {
+  padding: 15px 0;
+}
 /* MEDIA QUERIES BELOW */
 
 /* MEDIA QUERY FOR 425PX */
