@@ -28,20 +28,3 @@ const Projects = (props) => {
 
 
 export default Projects;
-
-
-
-
-
-// return(
-//   <div>
-//     <div className="projectsLetterWrap">
-//       <h2 className="projectsLetter">PRO</h2>
-//       <h2 className="projectsLetter">JECTS</h2>
-//     </div>
-//     <div className="projectsWrap">
-//       {projectCard}
-//     </div>
-//
-//   </div>
-// )

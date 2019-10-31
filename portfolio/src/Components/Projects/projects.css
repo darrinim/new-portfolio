@@ -1,20 +1,16 @@
+/* .testContainer {
+  display: flex;
+  width: 80%;
+} */
+
 .projectContainerFull {
   margin-top: 14%;
 }
-/* .projectContainerFull::before {
-  content: "";
-  display: block;
-  border-bottom: 1px solid black;
-  margin: 0 auto;
-  width: 70%;
-  padding-top: 10px;
-} */
 .projectContainer {
   position: relative;
   top: 25px;
   display: flex;
   justify-content: center;
-  /* background: rgba(0,0,0,0.55); */
 }
 .projectPhotos {
   width: 85%;

@@ -101,6 +101,7 @@ html, body {
 }
 .linkScrollTo {
   cursor: pointer;
+  font-weight: bold;
 }
 
 /* MEDIA QUERIES BELOW */
