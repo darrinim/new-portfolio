@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="footerContainer">
       <h2 className="footerHeadline">Let's accomplish something great</h2>
       <p className="footerSubtext">Would you like to work together? I would too! Shoot me a message detailing what you are looking for and I will be sure to get in touch with you.</p>
-      <p className="footerSubtext">Want to keep up to date with me and connect professionally? Give me a follow on LinkedIn below!</p>
+      <p className="footerSubtext">Let's connect professionally. Give me a follow on LinkedIn below!</p>
       <div className="contactContainer">
         <img className="bitmojiFooter" src="https://res.cloudinary.com/darrin-im/image/upload/v1572408505/bitmoji-peek_bartez.png" />
         <a className="button contactLink" href="mailto:darrinj.im@gmail.com">get in touch</a>

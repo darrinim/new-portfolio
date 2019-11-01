@@ -1,8 +1,14 @@
+
+
 .aboutContainer {
   height: 80vh;
   width: 100%;
   margin: 0;
   border-top: 10px solid black;
+  position: relative;
+}
+.speechTest {
+  position: relative;
 }
 /* .aboutLetterWrap {
   margin: 20px 0 0 15px;
@@ -48,12 +54,16 @@
   /* position: relative;
   top: 10px;
   left: 0; */
-  float: left;
-  padding-top: 80%;
+  /* float: left; */
+  /* padding-top: 80%; */
+  position: absolute;
+  right: 55%;
+  z-index: -1;
+  bottom: 1%;
 }
 .aboutText {
   margin: 0;
-  font-size: 22px;
+  font-size: 1.2em;
 }
 
 /* BELOW IS FOR TESTING PURPOSES TO CHECK IF THE TEXT MESSAGE STYLE LOOKS GOOD */
@@ -61,7 +71,8 @@
 .aboutMeWrap:after {
   content: '';
   position: absolute;
-  bottom: -11px;
+  /* bottom: -11px; */
+  right: -0.7%;
   width: 0;
   height: 0;
   border: 20px solid transparent;
@@ -75,15 +86,16 @@
   margin: 20px 0 0 15px;
   padding: 5px;
   width: fit-content;
-  font-size: 24px;
+  /* font-size: 24px; */
   background-color: lightgray;
   border-radius: 10px;
   color: black;
+  position: relative;
 }
 .aboutLetterWrap:after {
   content: '';
   position: absolute;
-  bottom: -14%;
+  bottom: -25%;
   width: 0;
   height: 0;
   border: 20px solid transparent;
@@ -97,6 +109,7 @@
   margin: 0;
   padding: 2px;
   font-weight: 400;
+  font-size: 2em;
 }
 .test {
   margin: 0;
@@ -110,7 +123,7 @@
 
 /* MEDIA QUERY FOR 320PX */
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
   .aboutLetter {
     font-size: 30px;
   }
@@ -129,11 +142,11 @@
   .aboutWrap:after {
     bottom: -97% !important;
   }
-}
+} */
 
 /* MEDIA QUERY FOR 425PX */
 
-@media (min-width: 425px) {
+/* @media (min-width: 425px) {
   .bitmojiAbout {
     padding-top: 65%;
   }
@@ -144,78 +157,87 @@
     position: absolute;
     bottom: -673px;
   }
-}
+} */
 
 
 /* MEDIA QUERY FOR 768PX */
 
 @media (min-width: 768px) {
   .bitmojiAbout {
-    padding-top: 23%;
-    width: 37%;
-  }
-  .aboutContainer {
-    height: 55vh;
-  }
-  .aboutWrap:after {
-    bottom: -100% !important;
+    width: 40%;
+    right: 62%;
   }
   .aboutLetter {
-    font-size: 1.6em;
+    font-size: 2.2em;
   }
-  .aboutLetterWrap:after {
-    bottom: -14.7%;
+  .aboutLetterWrap {
+    margin: 35px 0 0 30px;
+  }
+  .aboutMeWrap {
+    right: 15px;
   }
   .aboutText {
-    font-size: 1.8em;
-  }
-  .aboutMeWrap:after {
-    bottom: -15px !important;
-    margin-left: 92.3% !important;
+    font-size: 1.5em;
   }
 }
-
 /* MEDIA QUERY FOR 1024PX */
 
 @media (min-width: 1024px) {
-  .aboutLetterWrap:after {
-    bottom: -128px;
+  .bitmojiAbout {
+      right: 63%;
+      width: 33%;
   }
   .aboutLetter {
-    font-size: 1.5em;
-  }
-  .aboutMeWrap {
-    margin: 15px 15px 0 0;
+    font-size: 2.3em;
   }
   .aboutText {
-    font-size: 1.5em;
+    font-size:1.5em;
+  }
+  .aboutLetterWrap {
+    margin: 35px 0 0 45px;
+  }
+  .aboutLetterWrap:after {
+    bottom: -15px;
+  }
+  .aboutMeWrap {
+    right: 30px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .bitmojiAbout {
+      right: 73%;
+      width: 26%;
+      bottom: 0;
+  }
+  .aboutLetter {
+    font-size: 3em;
+    padding: 10px;
+  }
+  .aboutText {
+    font-size:2.2em;
+    padding: 10px 13px;
+  }
+  .aboutLetterWrap:after {
+    bottom: -15px;
   }
   .aboutMeWrap:after {
-    bottom: -14px !important;
-    margin-left: 93.9% !important;
-  }
-  .bitmojiAbout {
-      padding-top: 12%;
-      padding-left: 4%;
-      width: 28%;
-  }
-  .aboutContainer {
-    height: 55vh;
-    padding-top: 37px;
+    bottom: -16px;
+    margin-right: 2px
   }
 }
 
 /* MEDIA QUERY FOR 1280PX */
 
-@media (min-width: 1280px) {
+/* @media (min-width: 1280px) {
   .aboutLetterWrap:after {
     bottom: -141px !important;
   }
-}
+} */
 
 /* MEDIA QYERT FOR 1440PX */
 
-@media (min-width: 1440px) {
+/* @media (min-width: 1440px) {
   .aboutLetter {
     font-size: 2em;
   }
@@ -242,4 +264,4 @@
   .aboutWrap:after {
     bottom: -90.8% !important;
   }
-}
+} */
