@@ -34,7 +34,7 @@ const Home = () => {
           offset={-70}
           duration= {500}
         >
-          <p className="linkScrollTo linkContact">Contact<i class="fas fa-long-arrow-alt-down"></i></p>
+          <p className="linkScrollTo linkContact testStyle">Contact<i class="fas fa-long-arrow-alt-down"></i></p>
         </Link>
 
         <Link

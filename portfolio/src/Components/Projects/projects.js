@@ -24,7 +24,8 @@ const Projects = (props) => {
                   <ul className="projectList">
                     <li className="text projectTitle">{d.title}</li>
                     <li className="text projectDesc">{d.description}</li>
-                    <li className="text projectLink"><a target="blank"  href={d.deployed}>see this project</a></li>
+                    <li className="text"><a className="projectLink" target="blank"  href={d.deployed}>See this project!</a></li>
+                    {d.mockup !== "" ? <li className="text projectMockup"><a className="projectLink" target="blank"  href={d.mockup}>Mockup</a></li> : null}
                   </ul>
                 </div> {/* end of projectBack*/}
               </div> {/* end of inner container */}

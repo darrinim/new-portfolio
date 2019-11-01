@@ -27,7 +27,8 @@ class App extends React.Component {
         image: d.gsx$image.$t,
         description: d.gsx$description.$t,
         languages: d.gsx$languages.$t,
-        deployed: d.gsx$deployed.$t
+        deployed: d.gsx$deployed.$t,
+        mockup: d.gsx$mockup.$t
       }
       return projects
     })

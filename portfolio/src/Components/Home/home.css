@@ -228,6 +228,15 @@ html, body {
   }
 }
 
+@media (min-width: 1280px) {
+  .nameFirst {
+    left: 31.2%;
+  }
+  .linkContact {
+    right: 47.2%;
+  }
+}
+
 /* MEDIA QUERY 1440PX */
 
 @media (min-width: 1440px) {

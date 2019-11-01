@@ -1,3 +1,5 @@
+
+
 .aboutContainer {
   height: 80vh;
   width: 100%;
@@ -57,11 +59,11 @@
   position: absolute;
   right: 55%;
   z-index: -1;
-  bottom: 0;
+  bottom: 1%;
 }
 .aboutText {
   margin: 0;
-  font-size: 22px;
+  font-size: 1.2em;
 }
 
 /* BELOW IS FOR TESTING PURPOSES TO CHECK IF THE TEXT MESSAGE STYLE LOOKS GOOD */
@@ -160,61 +162,70 @@
 
 /* MEDIA QUERY FOR 768PX */
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
   .bitmojiAbout {
-    padding-top: 23%;
-    width: 37%;
-  }
-  .aboutContainer {
-    height: 55vh;
-  }
-  .aboutWrap:after {
-    bottom: -100% !important;
+    width: 40%;
+    right: 62%;
   }
   .aboutLetter {
-    font-size: 1.6em;
+    font-size: 2.2em;
   }
-  .aboutLetterWrap:after {
-    bottom: -14.7%;
-  }
-  .aboutText {
-    font-size: 1.8em;
-  }
-  .aboutMeWrap:after {
-    bottom: -15px !important;
-    margin-left: 92.3% !important;
-  }
-} */
-
-/* MEDIA QUERY FOR 1024PX */
-
-/* @media (min-width: 1024px) {
-  .aboutLetterWrap:after {
-    bottom: -128px;
-  }
-  .aboutLetter {
-    font-size: 1.5em;
+  .aboutLetterWrap {
+    margin: 35px 0 0 30px;
   }
   .aboutMeWrap {
-    margin: 15px 15px 0 0;
+    right: 15px;
   }
   .aboutText {
     font-size: 1.5em;
   }
-  .aboutMeWrap:after {
-    bottom: -14px !important;
-    margin-left: 93.9% !important;
-  }
+}
+/* MEDIA QUERY FOR 1024PX */
+
+@media (min-width: 1024px) {
   .bitmojiAbout {
-      padding-top: 12%;
-      padding-left: 4%;
-      width: 28%;
+      right: 63%;
+      width: 33%;
   }
-  .aboutContainer {
-    height: 55vh;
-    padding-top: 37px;
+  .aboutLetter {
+    font-size: 2.3em;
   }
-} */
+  .aboutText {
+    font-size:1.5em;
+  }
+  .aboutLetterWrap {
+    margin: 35px 0 0 45px;
+  }
+  .aboutLetterWrap:after {
+    bottom: -15px;
+  }
+  .aboutMeWrap {
+    right: 30px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .bitmojiAbout {
+      right: 73%;
+      width: 26%;
+      bottom: 0;
+  }
+  .aboutLetter {
+    font-size: 3em;
+    padding: 10px;
+  }
+  .aboutText {
+    font-size:2.2em;
+    padding: 10px 13px;
+  }
+  .aboutLetterWrap:after {
+    bottom: -15px;
+  }
+  .aboutMeWrap:after {
+    bottom: -16px;
+    margin-right: 2px
+  }
+}
 
 /* MEDIA QUERY FOR 1280PX */
 
