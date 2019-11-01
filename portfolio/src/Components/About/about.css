@@ -3,6 +3,10 @@
   width: 100%;
   margin: 0;
   border-top: 10px solid black;
+  position: relative;
+}
+.speechTest {
+  position: relative;
 }
 /* .aboutLetterWrap {
   margin: 20px 0 0 15px;
@@ -48,8 +52,12 @@
   /* position: relative;
   top: 10px;
   left: 0; */
-  float: left;
-  padding-top: 80%;
+  /* float: left; */
+  /* padding-top: 80%; */
+  position: absolute;
+  right: 55%;
+  z-index: -1;
+  bottom: 0;
 }
 .aboutText {
   margin: 0;
@@ -61,7 +69,8 @@
 .aboutMeWrap:after {
   content: '';
   position: absolute;
-  bottom: -11px;
+  /* bottom: -11px; */
+  right: -0.7%;
   width: 0;
   height: 0;
   border: 20px solid transparent;
@@ -75,15 +84,16 @@
   margin: 20px 0 0 15px;
   padding: 5px;
   width: fit-content;
-  font-size: 24px;
+  /* font-size: 24px; */
   background-color: lightgray;
   border-radius: 10px;
   color: black;
+  position: relative;
 }
 .aboutLetterWrap:after {
   content: '';
   position: absolute;
-  bottom: -14%;
+  bottom: -25%;
   width: 0;
   height: 0;
   border: 20px solid transparent;
@@ -97,6 +107,7 @@
   margin: 0;
   padding: 2px;
   font-weight: 400;
+  font-size: 2em;
 }
 .test {
   margin: 0;
@@ -110,7 +121,7 @@
 
 /* MEDIA QUERY FOR 320PX */
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
   .aboutLetter {
     font-size: 30px;
   }
@@ -129,11 +140,11 @@
   .aboutWrap:after {
     bottom: -97% !important;
   }
-}
+} */
 
 /* MEDIA QUERY FOR 425PX */
 
-@media (min-width: 425px) {
+/* @media (min-width: 425px) {
   .bitmojiAbout {
     padding-top: 65%;
   }
@@ -144,12 +155,12 @@
     position: absolute;
     bottom: -673px;
   }
-}
+} */
 
 
 /* MEDIA QUERY FOR 768PX */
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .bitmojiAbout {
     padding-top: 23%;
     width: 37%;
@@ -173,11 +184,11 @@
     bottom: -15px !important;
     margin-left: 92.3% !important;
   }
-}
+} */
 
 /* MEDIA QUERY FOR 1024PX */
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .aboutLetterWrap:after {
     bottom: -128px;
   }
@@ -203,19 +214,19 @@
     height: 55vh;
     padding-top: 37px;
   }
-}
+} */
 
 /* MEDIA QUERY FOR 1280PX */
 
-@media (min-width: 1280px) {
+/* @media (min-width: 1280px) {
   .aboutLetterWrap:after {
     bottom: -141px !important;
   }
-}
+} */
 
 /* MEDIA QYERT FOR 1440PX */
 
-@media (min-width: 1440px) {
+/* @media (min-width: 1440px) {
   .aboutLetter {
     font-size: 2em;
   }
@@ -242,4 +253,4 @@
   .aboutWrap:after {
     bottom: -90.8% !important;
   }
-}
+} */

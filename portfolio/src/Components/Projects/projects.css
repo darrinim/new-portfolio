@@ -1,36 +1,68 @@
-/* .testContainer {
-  display: flex;
-  width: 80%;
-} */
+.projectTestContainer {
 
-.projectContainerFull {
-  margin-top: 14%;
-}
-.projectContainer {
-  position: relative;
-  top: 25px;
-  display: flex;
-  justify-content: center;
-}
-.projectPhotos {
-  width: 85%;
-  border: 1px solid black;
-  box-shadow: 0 10px 6px -6px #777;
-  margin: 5px 0 15px 0;
-}
-.projectList {
-  /* position: absolute;
-  padding: 0;
-  left: 0;
-  bottom: 0; */
-  display: none;
+
+
 }
 .text {
   list-style-type: none;
-  font-size: 14px;
+}
+.projectList {
+    top: 0;
+    right: 0;
+    left: 0;
+    color: black;
+    position: absolute;
+    text-align: center;
+    /* margin: 0 auto; */
+    padding: 0;
+}
+.projectContainer {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-bottom: 10px;
+}
+.projectTestContainer {
+    border: 1px solid rgba(0,0,0,0.4);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.projectFront, .projectBack {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+    box-shadow: 0 12px 9px -6px #777;
+}
+.projectBack {
+  background-color: dodgerblue;
   color: white;
-  text-shadow: 1px 1px black;
-  margin-top: 30px;
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+}
+.projectContainer:hover .projectTestContainer {
+  transform:
+    rotateY(180deg);
+}
+
+
+.projectContainerFull {
+  /* margin-top: 14%; */
+  padding-top: 5%;
+  width: 70%;
+  margin: 0 auto;
+}
+.projectContainer {
+
+}
+.projectPhotos {
+  width: 100%;
 }
 .projectText {
   margin: 20px 0 0 15px;
@@ -41,7 +73,8 @@
 .aboutWrap:after {
     content: '';
     position: absolute;
-    bottom: -99%;
+    /* position: relative; */
+    /* bottom: -99%; */
     width: 0;
     height: 0;
     border: 20px solid transparent;
@@ -57,7 +90,16 @@
 
 /* MEDIA QUERY FOR 425PX */
 
-@media (min-width: 425px) {
+
+
+
+
+
+
+
+
+
+/* @media (min-width: 425px) {
   .projectContainerFull {
       margin-top: 55%;
   }
@@ -74,11 +116,11 @@
   .aboutWrap:after {
     bottom: -102.4%;
   }
-}
+} */
 
 /* MEDIA QUERY FOR 768PX */
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .projectContainerFull {
     margin-top: 28%;
   }
@@ -91,31 +133,31 @@
   .projectPhotos {
     width: 60%;
   }
-}
+} */
 
 /* MEDIA QUERY FOR 1024PX */
 
-@media (min-width:1024px) {
+/* @media (min-width:1024px) {
   .projectContainerFull {
     margin-top: 18%;
   }
   .projectPhotos {
     width: 50%;
   }
-}
+} */
 
 /* MEDIA QUERY FOR 1280PX */
 
-@media (min-width: 1280px) {
+/* @media (min-width: 1280px) {
   .aboutWrap:after {
     bottom: -96% !important;
   }
-}
+} */
 
 /* MEDIA QUERY FOR 1440PX */
 
-@media (min-width:1440px) {
+/* @media (min-width:1440px) {
   .projectContainerFull {
     margin-top: 13%;
   }
-}
+} */
