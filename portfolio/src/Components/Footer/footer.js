@@ -16,7 +16,7 @@ const Footer = () => {
         <a className="contactIcon" target= "blank" href="https://www.linkedin.com/in/darrin-im/"><i class="fab fa-linkedin fa-1x"></i></a>
         <a className="contactIcon" target= "blank" href="https://github.com/darrinim"><i class="fab fa-github-square fa-1x"></i></a>
         <a className="contactIcon" target = "blank" href="mailto:darrinj.im@gmail.com"><i class="fas fa-envelope fa-1x"></i></a>
-        <a className="contactIcon" target = "blank" href="https://docs.google.com/document/d/1SkTLJUrTV73oIXeAeW7pajAdvVP-lxmGYIwaL5OMpU4/edit?usp=sharing"><i class="fas fa-file fa-1x"></i></a>
+        <a className="contactIcon" target = "blank" href="https://pdfhost.io/v/0rxFJDULq_Resumepdf.pdf"><i class="fas fa-file fa-1x"></i></a>
       </div>
     </div>
   )
