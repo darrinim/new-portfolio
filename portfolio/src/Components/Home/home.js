@@ -28,6 +28,17 @@ const Home = () => {
 
         <Link
           activeClass="active"
+          to="langContainer"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {500}
+        >
+          <p className="linkScrollTo linkLang">Skills<i class="fas fa-long-arrow-alt-down"></i></p>
+        </Link>
+
+        <Link
+          activeClass="active"
           to="footerContainer"
           spy={true}
           smooth={true}

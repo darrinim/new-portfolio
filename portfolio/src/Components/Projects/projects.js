@@ -4,7 +4,7 @@ import './projects.css';
 const Projects = (props) => {
 
   return (
-    <div>
+    <div className="projectOuterContainer">
     <div className="aboutLetterWrap aboutWrap">
       <h2 className="aboutLetter">Projects?</h2>
     </div>

@@ -1,0 +1,106 @@
+.langContainer {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+.langQuestWrap {
+    margin: 20px 0 0 15px;
+    padding: 5px;
+    width: fit-content;
+    background-color: lightgray;
+    border-radius: 10px;
+    color: black;
+    position: relative;
+}
+.langQuestWrap:after {
+  content: '';
+  position: absolute;
+  bottom: -25%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-top-color: lightgray;
+  border-bottom: 0;
+  border-left: 0;
+  margin-left: -8px;
+  transform: rotate(25deg);
+}
+.langAnsInnerWrap {
+    width: 48%;
+    position: relative;
+    right: 0;
+    margin: 15px 15px 0 0;
+    background-color: #147efb;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: white;
+}
+.langAnsInnerWrap:after {
+  content: '';
+  position: absolute;
+  /* bottom: -11px; */
+  right: -1.6%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-top-color: #147efb;
+  border-bottom: 0;
+  border-right: 0;
+  margin-left: 178px;
+  transform: rotate(-19deg);
+}
+.langAnsOutterWrap {
+  display: flex;
+  justify-content: flex-end;
+}
+.langIcon {
+  height: 45px;
+  width: 45px;
+  padding: 1px 5px;
+}
+.bitmojiLang {
+  width: 35%;
+  margin-left: 2%;
+}
+.bitmojiLangContainer {
+  position: relative;
+  /* bottom: 40px; */
+  z-index: -1;
+  left: 5px;
+}
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+@media (min-width: 425px) {
+  .langAnsInnerWrap:after {
+    right: -0.6%;
+  }
+  .langIcon {
+    padding: 9px 7px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bitmojiLang {
+    width: 25%;
+    margin-left: 8%;
+  }
+  .langQuestWrap {
+    margin: 0 0 0 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bitmojiLang {
+    width: 20%;
+    margin-left: 10%;
+  }
+  .langQuestWrap {
+    margin: 0 0 0 45px;
+  }
+}
