@@ -1,5 +1,3 @@
-
-
 .aboutContainer {
   height: 80vh;
   width: 100%;
@@ -8,22 +6,12 @@
   position: relative;
 }
 .speechTest {
-  position: relative;
+  display: flex;
+  justify-content: flex-end;
 }
-/* .aboutLetterWrap {
-  margin: 20px 0 0 15px;
-  padding: 5px;
-  width: fit-content;
-  font-size: 24px;
-}
-.aboutLetter {
-  margin: 0;
-  padding: 2px;
-
-} */
 .aboutMeWrap {
   width: 48%;
-  position: absolute;
+  position: relative;
   right: 0;
   margin: 15px 15px 0 0;
   background-color: #147efb;
@@ -31,19 +19,6 @@
   border-radius: 10px;
   color: white;
 }
-/* .aboutMeWrap:after {
-    content: '';
-    position: absolute;
-    bottom: -11px;
-    width: 0;
-    height: 0;
-    border: 20px solid transparent;
-    border-top-color: lightgray;
-    border-bottom: 0;
-    border-left: 0;
-    margin-left: -18px;
-    transform: rotate(25deg);
-} */
 .lovesText {
   font-style: italic;
   text-decoration: underline;
@@ -51,11 +26,6 @@
 }
 .bitmojiAbout {
   width: 50%;
-  /* position: relative;
-  top: 10px;
-  left: 0; */
-  /* float: left; */
-  /* padding-top: 80%; */
   position: absolute;
   right: 55%;
   z-index: -1;
@@ -64,6 +34,9 @@
 .aboutText {
   margin: 0;
   font-size: 1.2em;
+  padding: 5px;
+  /* line-height: 30px; */
+  line-height: 25px;
 }
 
 /* BELOW IS FOR TESTING PURPOSES TO CHECK IF THE TEXT MESSAGE STYLE LOOKS GOOD */
@@ -72,7 +45,7 @@
   content: '';
   position: absolute;
   /* bottom: -11px; */
-  right: -0.7%;
+  right: -1.6%;
   width: 0;
   height: 0;
   border: 20px solid transparent;
@@ -121,43 +94,12 @@
 
 /* MEDIA QUERIES BELOW */
 
-/* MEDIA QUERY FOR 320PX */
 
-/* @media (max-width: 320px) {
-  .aboutLetter {
-    font-size: 30px;
-  }
-  .aboutLetterWrap:after {
-    bottom: -13%;
-  }
-  .aboutText {
-    font-size: 20px;
-  }
+@media (min-width: 425px) {
   .aboutMeWrap:after {
-    margin-left: 152px;
+    right: -0.7%;
   }
-  .bitmojiAbout {
-    padding-top: 90%;
-  }
-  .aboutWrap:after {
-    bottom: -97% !important;
-  }
-} */
-
-/* MEDIA QUERY FOR 425PX */
-
-/* @media (min-width: 425px) {
-  .bitmojiAbout {
-    padding-top: 65%;
-  }
-  .aboutContainer {
-    height: 55vh;
-  }
-  .aboutWrap:after {
-    position: absolute;
-    bottom: -673px;
-  }
-} */
+}
 
 
 /* MEDIA QUERY FOR 768PX */
@@ -178,6 +120,7 @@
   }
   .aboutText {
     font-size: 1.5em;
+    line-height: 35px
   }
 }
 /* MEDIA QUERY FOR 1024PX */
@@ -226,42 +169,3 @@
     margin-right: 2px
   }
 }
-
-/* MEDIA QUERY FOR 1280PX */
-
-/* @media (min-width: 1280px) {
-  .aboutLetterWrap:after {
-    bottom: -141px !important;
-  }
-} */
-
-/* MEDIA QYERT FOR 1440PX */
-
-/* @media (min-width: 1440px) {
-  .aboutLetter {
-    font-size: 2em;
-  }
-  .aboutText {
-    font-size: 2em;
-  }
-  .aboutLetterWrap {
-    margin: 20px 0 0 25px;
-  }
-  .aboutLetterWrap:after {
-    bottom: -14.5%;
-  }
-  .aboutMeWrap:after {
-    bottom: -16px !important;
-    margin-left: 95.59% !important;
-  }
-  .aboutMeWrap {
-    margin: 15px 25px 0 0;
-  }
-  .bitmojiAbout {
-    padding-top: 6% !important;
-    width: 28% !important;
-  }
-  .aboutWrap:after {
-    bottom: -90.8% !important;
-  }
-} */

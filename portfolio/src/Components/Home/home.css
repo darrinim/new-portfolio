@@ -87,17 +87,22 @@ html, body {
 .linkAbout {
   position: absolute;
   bottom: 10px;
-  right: 15%;
+  right: 10%;
+}
+.linkLang {
+  position: absolute;
+  bottom: 10px;
+  right: 30%;
 }
 .linkProjects {
   position: absolute;
   bottom: 10px;
-  left: 15%;
+  left: 10%;
 }
 .linkContact {
   position: absolute;
   bottom: 10px;
-  right: 43%;
+  left: 30%;
 }
 .linkScrollTo {
   cursor: pointer;
@@ -123,9 +128,6 @@ html, body {
     right: 6%;
     top: 60%;
   }
-  .linkContact {
-    right: 42%
-  }
 }
 
 /* MEDIA QUERY FOR 425PX */
@@ -133,9 +135,6 @@ html, body {
 @media (min-width: 425px) {
   .linkScrollTo {
     font-size: 23px;
-  }
-  .linkContact {
-    right: 41%;
   }
   .bitmojiHome {
     width: 60%;
@@ -148,6 +147,9 @@ html, body {
   .jobTitleR {
     top: 63%;
   }
+  .nameFirst {
+    left: 19%;
+  }
 }
 
 /* MEDIA QUERY FOR 768PX */
@@ -155,9 +157,6 @@ html, body {
 @media (min-width: 768px) {
   .linkScrollTo {
     font-size: 23px;
-  }
-  .linkContact {
-    right: 45%;
   }
   .bitmojiHome {
     width: 35%;
@@ -196,9 +195,6 @@ html, body {
     font-size: 23px;
     margin-bottom: 10px;
   }
-  .linkContact {
-    right: 46%;
-  }
   .bitmojiHome {
     width: 27%;
     right: 23%;
@@ -232,9 +228,6 @@ html, body {
   .nameFirst {
     left: 31.2%;
   }
-  .linkContact {
-    right: 47.2%;
-  }
 }
 
 /* MEDIA QUERY 1440PX */
@@ -263,9 +256,6 @@ html, body {
     top: 55%;
     right: 26%;
     font-size: 3.3em;
-  }
-  .linkContact {
-    right: 47%;
   }
   .bitmojiHome {
     width: 25%;

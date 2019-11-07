@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Components/Home/home';
 import Header from './Components/Header/header';
 import About from './Components/About/about';
+import Languages from './Components/Languages/languages';
 import Projects from './Components/Projects/projects';
 import Footer from './Components/Footer/footer';
 import axios from 'axios';
@@ -46,6 +47,7 @@ class App extends React.Component {
       <div className="App">
         <Home />
         <About />
+        <Languages />
         <Projects
           projects={this.state.projects}
         />
