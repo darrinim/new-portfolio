@@ -1,3 +1,89 @@
+.proContainer {
+  /* border: 1px solid rgba(0,0,0,0.2); */
+  margin-bottom: 12px;
+  /* position: relative; */
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+}
+.innerProContainer {
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* height: 29%; */
+  margin-top: -4px;
+  width: 100%;
+  background-color: #E4E4E2;
+  border-bottom-left-radius: 10px;
+}
+.innerProWrap {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 70px;
+}
+.projectPhotos {
+  width: 100%;
+  /* border-radius: 10px; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.proList {
+  margin: 0;
+  padding: 5px 15px;
+  list-style-type: none;
+}
+.proListItem {
+  /* font-size: 0.9em; */
+    font-size: 0.72em;
+}
+.proLink {
+  text-decoration: none;
+  color: black;
+}
+.proLinks {
+  font-size: 0.7em;
+}
+.proContainer:after {
+  content: '';
+  position: absolute;
+  bottom: -11px;
+  right: -1.6%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-top-color: #E4E4E2;
+  border-bottom: 0;
+  border-right: 0;
+  margin-left: 178px;
+  transform: rotate(-19deg);
+}
+.arrow {
+  margin: auto 0;
+  padding-right: 5px;
+  color: gray;
+  font-size: 20px;
+}
+.projectContainerFull {
+  padding-top: 5%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .text {
   list-style-type: none;
 }
@@ -50,12 +136,6 @@
   /* text-shadow: 0.9px 0.9px white; */
   margin-bottom: 5px;
 }
-
-.projectContainerFull {
-  padding-top: 5%;
-  width: 70%;
-  margin: 0 auto;
-}
 .projectLink {
   color: white;
   text-shadow: 0.3px 0.3px black;
@@ -66,9 +146,6 @@
   text-decoration-color: white;
   text-shadow: 0.3px 0.3px black;
   transition: color 0.4s, text-decoration-color 0.4s, text-shadow 0.4s;
-}
-.projectPhotos {
-  width: 100%;
 }
 .projectText {
   margin: 20px 0 0 15px;
@@ -84,7 +161,7 @@
     width: 0;
     height: 0;
     border: 20px solid transparent;
-    border-top-color: lightgray;
+    border-top-color: #E4E4E2;
     border-bottom: 0;
     border-left: 0;
     margin-left: -10px;

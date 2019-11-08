@@ -1,3 +1,6 @@
+
+
+
 .aboutContainer {
   height: 80vh;
   width: 100%;
@@ -60,7 +63,7 @@
   padding: 5px;
   width: fit-content;
   /* font-size: 24px; */
-  background-color: lightgray;
+  background-color: #E4E4E2;
   border-radius: 10px;
   color: black;
   position: relative;
@@ -72,7 +75,7 @@
   width: 0;
   height: 0;
   border: 20px solid transparent;
-  border-top-color: lightgray;
+  border-top-color: #E4E4E2;
   border-bottom: 0;
   border-left: 0;
   margin-left: -8px;
@@ -82,7 +85,7 @@
   margin: 0;
   padding: 2px;
   font-weight: 400;
-  font-size: 2em;
+  font-size: 1.2em;
 }
 .test {
   margin: 0;
