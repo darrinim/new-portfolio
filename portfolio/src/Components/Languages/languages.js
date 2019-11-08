@@ -7,7 +7,7 @@ const Languages = () => {
   return (
     <div className="langContainer">
       <div className="langQuestWrap">
-        <h2 className="aboutLetter">Skills?</h2>
+        <h2 className="aboutLetter">What are his Skills?</h2>
       </div>
       <div className="langAnsWrap">
       <div className="langAnsOutterWrap"> {/* FOR PUSHING SPEECH BUBBLE RIGHT */}

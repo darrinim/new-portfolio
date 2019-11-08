@@ -6,7 +6,7 @@ const Projects = (props) => {
   return (
     <div className="projectOuterContainer">
     <div className="aboutLetterWrap aboutWrap">
-      <h2 className="aboutLetter">Projects?</h2>
+      <h2 className="aboutLetter">Can I see some Projects?</h2>
     </div>
     <div className="projectContainerFull">
 
