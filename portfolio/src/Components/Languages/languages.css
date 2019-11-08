@@ -6,10 +6,10 @@
 }
 .langQuestWrap {
     margin: 20px 0 0 15px;
-    padding: 5px;
+    padding: 7px;
     width: fit-content;
     background-color: #E4E4E2;
-    border-radius: 10px;
+    border-radius: 15px;
     color: black;
     position: relative;
 }
