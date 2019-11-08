@@ -17,9 +17,6 @@ class App extends React.Component {
     time: ""
   }
 
-
-
-
   getTime = () => {
     let d = new Date();
     let n = d.toLocaleTimeString();
