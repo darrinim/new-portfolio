@@ -1,11 +1,11 @@
 import React from 'react';
 import './about.css'
 
-const About = () => {
+const About = (props) => {
 
   return (
     <div className="aboutContainer">
-      <div className="timestamp">Today 9:44 AM</div>
+      <div className="timestamp">Today {props.getTime}</div>
 
       <div className="aboutLetterWrap">
         <h2 className="aboutLetter">What is he About?</h2>

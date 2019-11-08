@@ -13,7 +13,19 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 class App extends React.Component {
   state = {
-    projects: []
+    projects: [],
+    time: ""
+  }
+
+
+
+
+  getTime = () => {
+    let d = new Date();
+    let n = d.toLocaleTimeString();
+    this.setState({
+      time: n
+    })
   }
 
 
@@ -39,14 +51,17 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    this.getProjects()
+    this.getProjects();
+    this.getTime();
   }
 
   render() {
     return (
       <div className="App">
         <Home />
-        <About />
+        <About
+          getTime={this.state.time}
+        />
         <Languages />
         <Projects
           projects={this.state.projects}
