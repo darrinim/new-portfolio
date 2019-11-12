@@ -181,3 +181,20 @@
     margin-right: 2px */
   }
 }
+
+@media (min-width: 1440px) {
+  .aboutLetter {
+    font-size: 2em;
+  }
+  .aboutText {
+    font-size: 2em;
+  }
+  .bitmojiAbout {
+    right: 73%;
+    width: 15%;
+    bottom: 0;
+  }
+  .bitmojiLang {
+    width: 15%;
+  }
+}
