@@ -1,3 +1,95 @@
+.proContainer {
+  /* border: 1px solid rgba(0,0,0,0.2); */
+  margin-bottom: 12px;
+  /* position: relative; */
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+    font-family: "Helvetica Neue Light";
+}
+.innerProContainer {
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* height: 29%; */
+  margin-top: -4px;
+  width: 100%;
+  background-color: #E4E4E2;
+  border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.innerProWrap {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 70px;
+  padding-left: 10px;
+}
+.projectPhotos {
+  width: 100%;
+  /* border-radius: 10px; */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.proList {
+  margin: auto 0;
+  padding: 0;
+  list-style-type: none;
+  width: 85%;
+}
+.proListItem {
+  /* font-size: 0.9em; */
+    font-size: 0.87em;
+    font-family: 'Helvetica Neue Light';
+    font-weight: 600;
+}
+.proLink {
+  text-decoration: none;
+  color: black;
+}
+.proLinks {
+  font-size: 0.6em;
+}
+.proContainer:after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  right: -1.3%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-top-color: #E4E4E2;
+  border-bottom: 0;
+  border-right: 0;
+  margin-left: 178px;
+  transform: rotate(-35deg);
+}
+.arrow {
+  margin: auto 0;
+  padding-right: 5%;
+  color: gray;
+  font-size: 20px;
+}
+.projectContainerFull {
+  padding-top: 5%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .text {
   list-style-type: none;
 }
@@ -50,12 +142,6 @@
   /* text-shadow: 0.9px 0.9px white; */
   margin-bottom: 5px;
 }
-
-.projectContainerFull {
-  padding-top: 5%;
-  width: 70%;
-  margin: 0 auto;
-}
 .projectLink {
   color: white;
   text-shadow: 0.3px 0.3px black;
@@ -66,9 +152,6 @@
   text-decoration-color: white;
   text-shadow: 0.3px 0.3px black;
   transition: color 0.4s, text-decoration-color 0.4s, text-shadow 0.4s;
-}
-.projectPhotos {
-  width: 100%;
 }
 .projectText {
   margin: 20px 0 0 15px;
@@ -81,14 +164,15 @@
     position: absolute;
     /* position: relative; */
     /* bottom: -99%; */
+    bottom: -8px;
     width: 0;
     height: 0;
     border: 20px solid transparent;
-    border-top-color: lightgray;
+    border-top-color: #E4E4E2;
     border-bottom: 0;
     border-left: 0;
-    margin-left: -10px;
-    transform: rotate(25deg);
+    margin-left: -11px;
+    transform: rotate(35deg);
 }
 
 
@@ -103,6 +187,9 @@
 @media (min-width: 425px) {
   .projectList {
     font-size: 1.1em;
+  }
+  .proContainer:after {
+    right: -0.6%;
   }
 }
 

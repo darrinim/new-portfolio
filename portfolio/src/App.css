@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Helvetica Neue Light";
+  src: url('./fonts/Helvetica Neue Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helvetica Neue Medium";
+  src: url('./fonts/Helvetica Neue Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helvetica Neue Thin";
+  src: url('./fonts/Helvetica Neue Thin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
