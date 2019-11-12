@@ -116,3 +116,8 @@
     width: 65px;
   }
 }
+@media (min-width: 1440px) {
+  .bitmojiLang {
+    width: 15%;
+  }
+}

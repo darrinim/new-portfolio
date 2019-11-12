@@ -182,7 +182,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1340px) {
   .aboutLetter {
     font-size: 2em;
   }
@@ -193,8 +193,5 @@
     right: 73%;
     width: 15%;
     bottom: 0;
-  }
-  .bitmojiLang {
-    width: 15%;
   }
 }
