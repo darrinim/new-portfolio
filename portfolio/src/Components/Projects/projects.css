@@ -39,10 +39,9 @@
   width: 85%;
 }
 .proListItem {
-  /* font-size: 0.9em; */
-    font-size: 0.87em;
-    font-family: 'Helvetica Neue Light';
-    font-weight: 600;
+  font-size: calc(11px + (16 - 11) * ((100vw - 300px) / (1600 - 300)));
+  font-family: 'Helvetica Neue Light';
+  font-weight: 600;
 }
 .proLink {
   text-decoration: none;
